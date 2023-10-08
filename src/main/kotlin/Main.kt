@@ -3,10 +3,9 @@ import java.lang.Exception
 fun main(args: Array<String>) {
 
     fun findSquare(a:Float):Float{
-        var squareA:Float=0F;
-
+        var squareA:Float=0F
         //define sensitivity
-        val range=a-0.0000000001F
+        val range=a-0.0000000000001F
         while (squareA*squareA!=a){
             //increase the value until condition will be true
             squareA+=0.000001F
